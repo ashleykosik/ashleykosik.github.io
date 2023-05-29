@@ -1,5 +1,5 @@
 // utils 
-const baseURL = `https://https://localhost:5500//`;
+const baseURL = `http://localhost:5500`;
 
 // buttons from index
 const userLogin = document.getElementById('userLogin')
