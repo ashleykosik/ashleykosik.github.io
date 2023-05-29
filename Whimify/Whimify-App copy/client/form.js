@@ -1,6 +1,6 @@
 
 
-const baseURL = `http://localhost:5500`;
+const baseURL = ``;
 
 //submit buttons
 const movieSubmit = document.getElementById('movieSubmit')

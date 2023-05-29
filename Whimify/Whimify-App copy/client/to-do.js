@@ -2,7 +2,7 @@
 const welcome = document.getElementById('welcome')
 
 
-const baseURL = `http://localhost:5500`;
+const baseURL = ``;
 
 
 // if logged in - display username
