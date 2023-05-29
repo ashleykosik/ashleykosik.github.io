@@ -1,0 +1,331 @@
+
+.main {
+	font-family: Raleway;
+	max-width: 800px;
+	text-align: center;
+	margin: 0;
+	padding:0;
+
+}
+
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 700px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+input {
+	display: block;
+}
+
+/**/
+
+.name {
+	border-bottom: solid;
+	padding-bottom: 5px;
+	margin: 20px 10% 10px 10%;
+}
+
+.H2 {
+	display: block;
+	background-color: orange;
+	margin-bottom:0;
+	padding: 5px;
+	color:white;
+	text-align:center;
+	z-index: 1;
+}
+
+h3 {
+	display: flex;
+    justify-content: space-evenly;
+	margin-top:0;
+	padding-top:0;
+	
+}
+
+h4 {
+	font-weight: 100;
+	margin:5px;
+	text-align: center;
+}
+
+/*paragraph under h1*/
+.profile {
+	font-size: 16px;
+	color: rgb(70, 70, 72);
+
+}
+
+img {
+	width: 200px;
+}
+
+/*interests section*/
+#interests {
+	background-color: rgb(244, 113, 161);
+	border-radius: 5%;
+	margin: 0;
+	display:inline-block;
+	padding:40px;
+	color:white;
+
+}
+
+#current {
+	display:inline-block;
+	margin:0;
+	padding:0;
+	position: relative;
+	top: 40px;
+}
+
+.current-li {
+	list-style-type: none;
+	margin: 0;
+	padding: 5px;
+	text-align: left;
+}
+
+/*Skills section*/
+.images {
+	display: flex;
+	justify-content: space-evenly;
+	background-color: azure;
+}
+
+.skills-text {
+	display: inline-flex;
+	justify-content: space-evenly;
+	width: 214px;
+	background-color: azure;
+	padding: 11px;
+	padding-bottom: 20px;
+	margin:-4px;
+}
+
+.skills {
+	background-color: azure;
+	padding: 20px;
+	margin: 0;
+}
+
+/*form section*/
+#request {
+	margin:0;
+	text-align: center;
+}
+
+.checkbox {
+	display: inline-block;
+}
+
+.input-text {
+	padding: 50px;
+	width: 100%;
+}
+
+.square-form {
+	border: dashed;
+	padding: 10px 50px;
+}
+
+p {
+	display: inline-flex;
+	justify-content: space-between;
+	align-items: stretch;
+	padding-right: 50px;
+	flex-wrap: wrap;
+	margin: 10px;
+	text-align: center;
+}
+
+#submit {
+	font-family: Raleway;
+	background-color: orange;
+	border: solid black 100;
+	border-radius: 5%;
+	padding: 5px 20px;
+	margin-top: 5px
+}
+.btns {
+	margin: 15px 10px 5px 10px ;
+	border-radius: 50%;
+	background-color: yellow;
+	border: none;
+	padding: 20px 40px;
+	font-size: 15px;
+	font-family: Raleway;
+
+}
+
+/*extra credit*/
+.title {
+	position: relative;
+	top: -550px;
+	left: 5px;
+}
+/*image*/
+.hometown {
+	width:100%;
+	position: absolut;
+	top: -100px;
+	font-family: Raleway;
+}
+
+.home {
+	position: relative;
+	top: -100px;
+	text-align: center;
+	
+}
+
+#congrats {
+	position: relative;
+	top: -480px;
+	text-align: left;
+	color: white;
+}
+
+.home p {
+	text-align: left;
+	padding: 0;
+}
+
+.places {
+	display: inline-flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	padding-top: 10px;
+	gap:100px;
+}
+
+.places-images {
+	display: inline-flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	position: relative;
+	padding:0;
+	gap:10px;
+}
+#subway {
+	background-image: url(https://lh5.googleusercontent.com/p/AF1QipNNjAxTwTuKwzU5T6_Ea1dArNwMXNXbUFr4UGk9=w408-h570-k-no);
+	height: 250px;
+	width: 200px;
+	background-position: center;
+}
+
+#bb {
+	background-image: url(https://lh5.googleusercontent.com/p/AF1QipMg5QtUBh8V_A-wCPeH4iLZiGhPqiQDRzT42Mzs=w408-h561-k-no);
+	height: 250px;
+	width: 200px;
+	background-position: center;
+	background-size: cover;
+
+}
+#dg {
+	background-image: url(https://images.crexi.com/lease-assets/334846/7ffcdb00070c47eca3dd22f72b7fc987_716x444.jpg);
+	height: 250px;
+	width: 250px;
+	background-position: center;
+}
+.places-desc {
+	display: inline-flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	width: 200px;
+	gap: 30px;
+}
+
+#subway-des {
+	width: 180px;
+	margin:0;
+	padding:0;
+}
+#bb-des {
+	width: 205px;
+}
+.places2 {
+	display: inline-flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	gap: 100px;
+}
+
+#rest {
+	background-color: green;
+}
+
+#div {
+	background-color: green;
+	padding: 10px 110px;
+	text-align: center;
+	height: 10px;
+	margin-bottom: 10px;
+
+}
+
+#cran {
+	background-image: url(https://cranberriescafe.com/files/2020/06/150211_178770452149869_2270999_n_2.jpg);
+	height: 300px;
+	width: 240px;
+	background-position: left;
+	background-size: cover;
+}
+
+#four{
+	background-image: url(https://www.mlive.com/resizer/NHMcae3Zdcavyi1efhrijR8bElg=/800x0/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/XQVP2RSNTFHOLCR3UNIRYJI6L4.JPG);
+	height: 300px;
+	width: 220px;
+	background-position: left;
+	background-size: cover;
+}
+
+#lippy {
+	background-image: url(https://lh5.googleusercontent.com/p/AF1QipN1RJSpJakBvQwws37cFTro2yRjoj5Q9ohpWQcg=w408-h544-k-no);
+	height: 300px;
+	width: 200px;
+	background-position: center ;
+}
+
+#cc-des {
+	width: 210px;
+	margin: 10px;
+	padding: 0;
+}
+#four-des {
+	width: 205px;
+	margin: 10px;
+}
+
+#lippy-desc {
+	margin-right: 0;
+}

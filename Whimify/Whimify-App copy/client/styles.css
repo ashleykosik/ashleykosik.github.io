@@ -1,0 +1,263 @@
+/* Colors:
+grey - #404040
+yellow - #FFEB5B
+red - #FF5757
+torq/blue - #5CE1E6
+green - #7CC644
+purple - #5d404f
+white - #d9d9d9
+
+
+
+*/
+
+* {
+    font-family: Montserrat;
+    margin: 0
+}
+body {
+    background-color: #404040;
+}
+
+h1 {
+    color: #d9d9d9;
+    font-family: Gochi Hand;
+    font-size: 50px;
+    margin: 80px;
+    max-width: 500px;
+}
+
+h2, h3{
+    text-align: center;
+}
+
+h3 {
+    padding: 5px;
+    font-weight: 100
+}
+
+h2 {
+    padding: 10px
+}
+/* end all pages */
+/* login page */
+.container {
+    color:black;
+    max-width: 500px;
+    margin: auto;
+}
+
+section {
+    margin: 32px auto;
+}
+
+img {
+    display: block;
+    border: none;
+    margin-top: 10%
+}
+
+.login {
+    background-color: #FFBB01;
+    color: #404040;
+    border-radius: 10px;
+    padding: 5px;
+    width: 50%;
+}
+
+.signup {
+    background-color: #fe8bb1;
+    color: #404040;
+    border-radius: 10px;
+    padding: 5px;
+    width: 50%;
+}
+.input {
+    background-color: white;
+    border-radius: 12px;
+    color: black;
+    text-align: left;
+    padding-left: 10px;
+    width: 50%;
+    display: block;
+    margin: auto
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 5px 20px
+}
+
+#enter-password #create-password {
+    padding-top: 10px
+}
+/*end login page*/
+
+#welcome, a {
+    text-align: left;
+    margin: 10px;
+    width: vw;
+    display:inline;
+}
+
+.logo {
+    display: inline;
+    width: 20%;
+    margin: 0;
+    position: absolute;
+    right: 0px;
+
+}
+#star {
+    width: 25%;
+    display: inline;
+    margin: 0;
+}
+
+
+#myWhims {
+    font-size: 60px;
+    color: #d9d9d9;
+    font-family: Gochi Hand;
+    width: 50%;
+    padding:0;
+    margin: auto;
+}
+.categories {
+    margin: 20px;
+    display: flex;
+}
+
+.movies {
+    background-color: #FF5757;
+    float: left;
+    width: 25%;
+    margin: 10px;
+    border-radius: 10px;
+      
+}
+
+.tv {
+    background-color: #5CE1E6;
+    float: left;
+    width: 25%;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.books {
+    background-color: #FFEB5B;
+    float: left;
+    width: 25%;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.games {
+    background-color: #7CC644;
+    float: left;
+    width: 25%;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.complete, .delete {
+    display: inline;
+    margin: 5px 0px;
+    padding: 5px;
+    background-color:gray;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    box-shadow:3px 2px 2px black;
+    border:none
+}
+
+p.title {
+    font-weight: 600;
+    display: inline-block;
+}
+p.platform, p.seasons, p.episodes {
+    display: inline
+}
+
+p.year {
+    display: inline;
+}
+.completed {
+    font-weight: bold;
+}
+
+ul {
+    margin: 5px;
+    padding:0px;
+    padding-left: 20px;
+    padding-right: 10px
+}
+
+p.games-list {
+    display: inline-block;
+}
+
+/*form page */
+.formcontainer {
+   margin: auto;
+   width: 50%;
+   max-width: 450px;
+}
+h1.formcontainer {
+    font-size: 40px;
+    width: 100%;
+    text-align: center
+}
+h2.formcontainer {
+    color: #d9d9d9;
+    display: inline
+}
+input.formcontainer {
+    display: inline-block;
+    width: 50%;
+    position: right
+}
+#movie-plat, #tv-plat {
+    width: 35%
+}
+#movie-year {
+    width: 45%
+}
+#tv-seasons {
+    width:27%
+}
+#tv-episodes {
+    width: 10%
+}
+#tv-minutes {
+    width:24%
+}
+#book-author {
+    width: 40%
+}
+#book-pages {
+    width: 30%
+}
+#game-plat {
+    width: 38%;
+}
+
+#new-movie {
+    color: #FF5757
+}
+
+#new-tv {
+    color:#5CE1E6
+}
+
+#new-book {
+    color:#FFEB5B
+}
+
+#new-game {
+    color:#7CC644
+}
+/*end form page*/

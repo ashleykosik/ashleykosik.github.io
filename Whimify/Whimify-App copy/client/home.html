@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Whimify</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <!--navigation buttons  
+        login - index.html
+        dashboard - home.html
+    view to do list - to-do.html
+    view completed list - completed.html
+    view in-progress list - progress.html
+    add entries form - form.html?
+    
+    --> 
+
+
+        <!--   <a href="./home.html"><< Back </a>
+        sample back/nav button -->
+
+    <main>
+        <h1 id="welcome">Welcome Back, </h1>
+        <button onclick="window.location.href = 'form.html';">Add Entry</button>
+        <button onclick="window.location.href = 'to-do.html';">View All Whims</button> 
+        <h2>Recently Completed:</h2>
+        <ol class="dashboard-list">
+            <li> date - I completed this awesome thing</li>
+            <li> date - I completed this awesome thing</li>
+            <li> date - I completed this awesome thing</li>
+        </ol>
+        <h2>In Progress:</h2>
+        <ul class="dashboard-list">
+            <li> title - x/xx label (last update on date)</li>
+            <li> TV Title - Current Season X/XX episodes (last update on date)</li>
+            <li> Book Title - X/XX pages (last update on date)</li>
+            <li> Movie Title - X/XX minutes (last update on date)</li>
+            <li> Game Title - current quest (last update on date)</li>
+        </ul>
+    </main>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="home.js"></script>
+</body>
+</html>

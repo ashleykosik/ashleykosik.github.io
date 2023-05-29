@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add To Whimify</title>
+    <link href="styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+<body>
+    <main>
+        <div class="formcontainer">
+        <section id="movies"> 
+            <h1 class="formcontainer" id="new-movie">Add New Movie</h1>
+            <h2 class="formcontainer">Movie Title:</h2>
+            <input type="text" class="formcontainer" id="movie-title"/>
+            <br>
+            <h2 class="formcontainer">Release Year:</h2>
+            <input type="number" class="formcontainer" id="movie-year"/>
+            <br>
+            <h2 class="formcontainer">Where To Watch:</h2>
+            <input type="text" class="formcontainer" id="movie-plat"/>
+            <br>
+            <button id="movieSubmit">Submit</button>
+        </section>
+        <section id="tv"> 
+            <h1 class="formcontainer" id="new-tv">Add New TV Show</h1>
+            <h2 class="formcontainer">Series Title:</h2>
+            <input type="text" class="formcontainer" id="tv-title"/>
+            <br>
+            <h2 class="formcontainer">Number of Seasons:</h2>
+            <input type="number" class="formcontainer" id="tv-seasons"/>
+            <br>
+            <h2 class="formcontainer">Total Number of Episodes:</h2>
+            <input type="number" class="formcontainer" id="tv-episodes"/>
+            <br>
+            <h2 class="formcontainer">Minutes Per Episode:</h2>
+            <input type="number" class="formcontainer" id="tv-minutes"/>
+            <br>
+            <h2 class="formcontainer">Where To Watch:</h2>
+            <input type="text" class="formcontainer" id="tv-plat"/>
+            <br>
+            <button id="tvSubmit">Submit</button>
+        </section>
+        <section id="books"> 
+            <h1 class="formcontainer" id="new-book">Add New Book</h1>
+            <h2 class="formcontainer">Book Title: </h2>
+            <input type="text" class="formcontainer" id="book-title"/>
+            <br>
+            <h2 class="formcontainer">Author Name:</h2>
+            <input type="text" class="formcontainer" id="book-author"/>
+            <br>
+            <h2 class="formcontainer">Number of Pages:</h2>
+            <input type="number" class="formcontainer" id="book-pages"/>
+            <br>
+            <button id="bookSubmit">Submit</button>
+        </section>
+        <section id="games"> 
+            <h1 class="formcontainer" id="new-game">Add New Video Game</h1>
+            <h2 class="formcontainer">Game Title:</h2>
+            <input type="text" class="formcontainer" id="game-title"/>
+            <br>
+            <h2 class="formcontainer">Game Platform:</h2>
+            <input type="text" class="formcontainer" id="game-plat"/>
+            <br>
+        </section>
+        <button id="gameSubmit">Submit</button>
+    </div>
+    </main>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="form.js"></script>
+</body>
+</html>
