@@ -2,7 +2,7 @@
 const welcome = document.getElementById('welcome')
 
 
-const baseURL = `https://ashleykosik.github.io`;
+const baseURL = `http://ashleykosik.github.io`;
 
 
 // if logged in - display username

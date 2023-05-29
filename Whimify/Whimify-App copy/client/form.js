@@ -1,6 +1,6 @@
 
 
-const baseURL = `https://ashleykosik.github.io`;
+const baseURL = `http://ashleykosik.github.io`;
 
 //submit buttons
 const movieSubmit = document.getElementById('movieSubmit')
