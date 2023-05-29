@@ -2,7 +2,7 @@
 const welcome = document.getElementById('welcome')
 
 
-const baseURL = `https://bespoke-kulfi-aa814a.netlify.app/`;
+const baseURL = `https://localhost:5500/`;
 
 
 // if logged in - display username
