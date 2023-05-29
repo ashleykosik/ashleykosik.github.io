@@ -1,0 +1,170 @@
+* {
+    margin: 0
+}
+
+body {
+    background-image: url(images/pexels-scott-webb-593158.jpeg); 
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #4d535c;
+    margin: 0;
+    height: 100%;
+    width: 100%
+}
+
+h1 {
+    font-size: 18.5px;
+    font-family:  Montserrat, Verdana, sans-serif;
+    position: relative;
+    top: 50px;
+    left: 5px;
+    padding: 0px;
+
+}
+#ashley {
+    position: relative;
+    left: 98px
+}
+
+h2 {
+    font-size: 20px;
+    display: inline;
+    font-family:  Finger Paint, Montserrat, Verdana, sans-serif;
+
+}
+
+li {
+    display: inline;
+    font-size: 20px;
+    padding: 15px
+}
+
+a {
+    color:black;
+    text-underline-offset: none;
+}
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+h3 {
+    font-size: 18px;
+    font-family: Finger Paint;
+    padding: 5px;
+    position: relative;
+    top: 75px
+}
+
+.notebook {
+    background-image: url(images/notebook-copy.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0 auto 0 auto;
+    width: 800px;
+    height: 100vh;
+    position: relative;
+} 
+
+.container {
+    position: absolute;
+    width: 600px;
+    margin: 0;
+    padding: 10%;
+    height: auto
+}
+
+.left {
+    float: left;
+    width: 50%;
+    height: auto;
+    margin-left: 25px;
+    padding-top: 100px
+}
+
+.right {
+    float: right;
+    width: 45%;
+    padding: 0;
+    margin: 0;
+    display: inline;
+    height: 200px
+
+}
+
+.mid {
+    float: right;
+    width: 10%;
+    height: auto
+}
+
+nav {
+    margin: 0;
+    position: relative;
+    top:70px;
+    float:right;
+    right: -48px;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+
+#projects {
+    font-size: 15px;
+}
+
+#youtube {
+    font-size: 16px;
+}
+
+#two, #three {
+    padding: 4px
+}
+/*images*/
+#portait {
+    height: 120px;
+    position: relative;
+    top: 45px;
+    left: 65px
+}
+
+#resume {
+    width: 130px;
+    height: 130px;
+    position: relative;
+    top: 65px;
+    left: 62px
+}
+
+#pokeball {
+    width: 100px;
+    height: 62px;
+    float: right;
+    position: relative;
+    top: -160px
+}
+
+#whimify {
+    width: 200px;
+    height: 200px;
+    float: right;
+    position: relative;
+    top: -115px;
+    left: 45px
+}
+
+#FIRSTlogo {
+    width: 220px;
+    height: 90px;
+    position: relative;
+    top: -200px;
+    left: 25px
+
+}
+
+#hometown {
+    width: 150px;
+    height: 135px;
+    position: relative;
+    top: -140px
+}
