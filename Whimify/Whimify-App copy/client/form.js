@@ -1,6 +1,6 @@
 
 
-const baseURL = `http://ashleykosik.github.io`;
+
 
 //submit buttons
 const movieSubmit = document.getElementById('movieSubmit')
@@ -37,7 +37,7 @@ const addMovie = (e) => {
     const userId = sessionStorage.getItem("userId")
     e.preventDefault()
     let body = { title: movieTitle.value, year: movieYear.value, platform: moviePlat.value, userId  }
-    axios.post(`${baseURL}/api/movie`, body)
+    axios.post(`/api/movie`, body)
       .then((res) => {
         console.log(res.data);
         window.location.href = `./to-do.html`;
@@ -50,7 +50,7 @@ const addTv = (e) => {
     const userId = sessionStorage.getItem("userId")
     e.preventDefault()
     let body = { title: tvTitle.value, seasons: tvSeasons.value, episodes: tvEp.value, minutes: tvMins.value, platform: tvPlat.value, userId  }
-    axios.post(`${baseURL}/api/tv`, body)
+    axios.post(`/api/tv`, body)
       .then((res) => {
         console.log(res.data);
         window.location.href = `./to-do.html`;
@@ -62,7 +62,7 @@ const addBook = (e) => {
     const userId = sessionStorage.getItem("userId")
     e.preventDefault()
     let body = { title: bookTitle.value, author: bookAuthor.value, pages: bookPages.value, userId  }
-    axios.post(`${baseURL}/api/book`, body)
+    axios.post(`/api/book`, body)
       .then((res) => {
         console.log(res.data);
         window.location.href = `./to-do.html`;
@@ -74,7 +74,7 @@ const addGame = (e) => {
     const userId = sessionStorage.getItem("userId")
     e.preventDefault()
     let body = { title: gameTitle.value, platform: gamePlat.value, userId  }
-    axios.post(`${baseURL}/api/game`, body)
+    axios.post(`/api/game`, body)
       .then((res) => {
         console.log(res.data);
         window.location.href = `./to-do.html`;
