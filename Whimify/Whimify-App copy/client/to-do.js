@@ -2,8 +2,6 @@
 const welcome = document.getElementById('welcome')
 
 
-const baseURL = `http://ashleykosik.github.io`;
-
 
 // if logged in - display username
 function loggedIn (userId) {
@@ -44,13 +42,13 @@ function markMovieCompleted(id) {
     const elemToRemove = document.querySelector(selector)
     elemToRemove.remove()
     //changes status in table
-    axios.put(`${baseURL}/api/completeMovie/${id}`, {movieId: id})
+    axios.put(`/api/completeMovie/${id}`, {movieId: id})
         .then(() => location.reload())
         .catch(err => console.log(err))
 }
 
 function markMovieDelete(id) {
-  axios.delete(`${baseURL}/api/deleteMovie/${id}`, {movieId: id})
+  axios.delete(`/api/deleteMovie/${id}`, {movieId: id})
       .then(() => location.reload())
       .catch(err => console.log(err))
 }
@@ -68,7 +66,7 @@ function addMoviesView(data) {
 
 const findAllMovies = () => {
     const userId = sessionStorage.getItem("userId")
-    axios.get(`${baseURL}/api/getMovies/${userId}`)
+    axios.get(`/api/getMovies/${userId}`)
         .then((res) => { 
            //console.log(res.data)
           addMoviesView(res.data)
@@ -106,13 +104,13 @@ function markTvCompleted(id) {
   const selector = `#tv-${id}`
     const elemToRemove = document.querySelector(selector)
     elemToRemove.remove()
-    axios.put(`${baseURL}/api/completeTv/${id}`, {tvId: id})
+    axios.put(`/api/completeTv/${id}`, {tvId: id})
         .then(() => location.reload())
         .catch(err => console.log(err))
 }
 
 function markTvDelete(id) {
-  axios.delete(`${baseURL}/api/deleteTv/${id}`, {tvId: id})
+  axios.delete(`/api/deleteTv/${id}`, {tvId: id})
       .then(() => location.reload())
       .catch(err => console.log(err))
 }
@@ -130,7 +128,7 @@ function addTvView(data) {
 
 const findAllTv = () => {
     const userId = sessionStorage.getItem("userId")
-    axios.get(`${baseURL}/api/getTv/${userId}`)
+    axios.get(`/api/getTv/${userId}`)
         .then((res) => { 
           addTvView(res.data)
         })
@@ -162,13 +160,13 @@ function markBookCompleted(id) {
   const selector = `#book-${id}`
     const elemToRemove = document.querySelector(selector)
     elemToRemove.remove()
-    axios.put(`${baseURL}/api/completeBook/${id}`, {bookId: id})
+    axios.put(`/api/completeBook/${id}`, {bookId: id})
         .then(() => location.reload())
         .catch(err => console.log(err))
 }
 
 function markBookDelete(id) {
-  axios.delete(`${baseURL}/api/deleteBook/${id}`, {bookId: id})
+  axios.delete(`/api/deleteBook/${id}`, {bookId: id})
       .then(() => location.reload())
       .catch(err => console.log(err))
 }
@@ -187,7 +185,7 @@ function addBookView(data) {
 
 const findAllBooks = () => {
     const userId = sessionStorage.getItem("userId")
-    axios.get(`${baseURL}/api/getBooks/${userId}`)
+    axios.get(`/api/getBooks/${userId}`)
         .then((res) => { 
           console.log(res.data)
           addBookView(res.data)
@@ -219,13 +217,13 @@ function markGameCompleted(id) {
   const selector = `#game-${id}`
     const elemToRemove = document.querySelector(selector)
     elemToRemove.remove()
-    axios.put(`${baseURL}/api/completeGame/${id}`, {gameId: id})
+    axios.put(`/api/completeGame/${id}`, {gameId: id})
         .then(() => location.reload())
         .catch(err => console.log(err))
 }
 
 function markGameDelete(id) {
-  axios.delete(`${baseURL}/api/deleteGame/${id}`, {gameId: id})
+  axios.delete(`/api/deleteGame/${id}`, {gameId: id})
       .then(() => location.reload())
       .catch(err => console.log(err))
 }
@@ -243,7 +241,7 @@ function addGameView(data) {
 
 const findAllGames = () => {
     const userId = sessionStorage.getItem("userId")
-    axios.get(`${baseURL}/api/getGames/${userId}`)
+    axios.get(`/api/getGames/${userId}`)
         .then((res) => { 
           addGameView(res.data)
         })

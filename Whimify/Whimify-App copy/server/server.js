@@ -41,5 +41,3 @@ app.get('/api/getGames/:userId', getGames)
 app.put('/api/completeGame/:gameId', completeGame)
 app.delete('/api/deleteGame/:gameId', deleteGame)
 
-
-app.listen(process.env.SERVER_PORT, () => console.log('Server running on port 5500'))
