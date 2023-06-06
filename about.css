@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    font-family:  Montserrat, Verdana, sans-serif;
+}
+
+body {
+    background-image: url(images/pexels-scott-webb-593158.jpeg); 
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #4d535c;
+    margin: 0;
+    height: 100%;
+    width: 100%
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+
+}
+
+.text {
+    float: left;
+    width: 50%;
+    height: auto;
+    margin-right: 40px;
+    padding: 10px;
+    background-color: #D9D9D9;
+    border: solid 24px;
+    border-color: #31063B;
+    display: inline
+}
+
+.image {
+    float: left;
+    width: 30%;
+    padding: 0;
+    
+}
+
+#ashley-hat {
+    display: inline;
+    height: 600px;
+    width: 440px;
+    border: solid 5px;
+    border-color:#D9D9D9
+
+
+}
+p {
+    padding: 20px;
+    font-size: 14px
+}
+
+.container {
+    margin: auto;
+    width: 90%;
+    padding-top: 80px
+}
+
+a {
+    margin: auto;
+    width:50%
+}
