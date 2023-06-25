@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    font-family:  Montserrat, Verdana, sans-serif;
+}
+
+body {
+    background-image: url(images/pexels-scott-webb-593158.jpeg); 
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #4d535c;
+    margin: 0;
+    height: 100%;
+    width: 100%
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+}
+
+h2 {
+}
+
+p {
+    width: 300px;
+    display: inline
+}
+
+a {
+    margin: auto;
+    width:50%;
+    color: yellowgreen;
+}
+.text {
+    float: left;
+    width: 50%;
+    height: auto;
+    padding: 10px;
+    color: #D9D9D9;
+    background-color: #480757;
+    border: solid 5px;
+    border-color: #D9D9D9;
+    display: inline;
+    margin: 50px
+}
+
+.image {
+    float: left;
+    width: 30%;
+    padding: 0;
+    
+}
+
+#ashley-hat {
+    display: inline;
+    height: 600px;
+    width: 440px;
+    border: solid 5px;
+    border-color:#D9D9D9;
+    margin-top: 50px
+}
+
+.title {
+    padding-top: 80px
+}
+
+.EB{
+    display: flexbox;
+    margin: auto;
+    width: 50%;
+}
+.paragraph {
+    padding: 20px;
+    font-size: 14px;
+    color: #D9D9D9;
+    background-color: #480757;
+    border: solid 5px;
+    border-color: #D9D9D9;
+    margin:auto;
+    max-width: 400px;
+    margin-bottom: 50px
+}
+
+.team {
+    padding-top:20px
+}
+
+.year {
+    margin: 0;
+    padding: 20px;
+}
+
+#FIRST-like-agirl {
+    height: 261.5px;
+    width: 477px;
+    margin: 50px;
+    display: inline-block;
+}
+
+#EBmentor {
+    height: 400px;
+    width: 250px;
+    margin: 10px
+
+}
+
+.robotics-title {
+    background-color: orange;
+    width: 100vw;
+    margin: 0;
+    text-align: center;
+}
+
+.robo-title {
+    background-color: greenyellow;
+    width: 100vw;
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    border: solid 5px;
+    border-color:#D9D9D9
+}
+
+#robot-girl {
+    margin: 50px;
+
+}
+
+.stack-images {
+    display: inline;
+    position: relative;
+    bottom: 355px
+
+}
+
+#drive-team {
+    width: 530px;
+    display: block;
+    float: right;
+    margin-right: 100px
+}
