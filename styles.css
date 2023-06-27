@@ -15,13 +15,14 @@ h1 {
     font-size: 18.5px;
     font-family:  Montserrat, Verdana, sans-serif;
     position: relative;
-    top: 50px;
+    top: -150px;
     left: 5px;
     padding: 0px;
 
 }
 #ashley {
     position: relative;
+    top: -150px;
     left: 98px
 }
 
@@ -52,7 +53,7 @@ h3 {
     font-family: Finger Paint;
     padding: 5px;
     position: relative;
-    top: 75px
+    top: -140px;
 }
 
 .notebook {
@@ -123,7 +124,7 @@ nav {
 #portait {
     height: 120px;
     position: relative;
-    top: 45px;
+    top: -155px;
     left: 65px
 }
 
@@ -131,7 +132,7 @@ nav {
     width: 130px;
     height: 130px;
     position: relative;
-    top: 60px;
+    top: -140px;
     left: 62px
 }
 
@@ -143,29 +144,80 @@ nav {
     top: -160px
 }
 
-#whimify {
+.react {
+    position: relative;
+    top: -250px;
+    left: 30px;
+    width: 50px;
+    font-size: 11px;
+    font-family: Montserrat, Verdana, sans-serif;
+}
+
+.whimify {
     width: 200px;
     height: 200px;
     float: right;
     position: relative;
-    top: -115px;
-    left: 45px
+    top: -350px;
+    left: 45px;
 }
 
-#FIRSTlogo {
+#hobby {
+    position: relative;
+    top: -415px;
+    left: 90px;
+    font-size: 11px;
+    font-family: Montserrat, Verdana, sans-serif;
+}
+
+.FIRSTlogo {
     width: 230px;
     height: 85px;
     position: relative;
-    top: -200px;
-    left: 25px
-
+    top: -640px;
+    left: 25px;
+    text-align: right;
+    font-size: 11px;
+    font-family: Montserrat, Verdana, sans-serif;
 }
 
-#hometown {
+.hometown {
     width: 140px;
     height: 140px;
     position: relative;
     top: -150px;
-    left: 15px
+    left: 15px;
+    font-size: 10px;
+    font-family: Montserrat, Verdana, sans-serif;
 }
+
+#fe {
+    top: -160px;
+    left: 20px;
+    font-size: 10px;
+    font-family: Montserrat, Verdana, sans-serif;
+}
+
+.icon-group {
+    display: inline;
+}
+.icons {
+    width: 40px;
+    padding: 5px;
+}
+
+#github {
+    width: 60px;
+    margin: -10px
+}
+
+.icon-text {
+    position: relative;
+    top: -5px;
+    left: 2px;
+    font-size: 10px;
+    font-family:  Montserrat, Verdana, sans-serif;
+}
+
+
 

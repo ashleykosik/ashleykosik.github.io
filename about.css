@@ -142,3 +142,24 @@ img {
     float: right;
     margin-right: 100px
 }
+
+.truncated {
+    height: 25ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px
+  }
+  .truncated p:first-child {
+    display: block;
+    cursor: pointer;
+  }
+ 
+.blog-images {
+    height: 300px;
+    margin: 10px
+
+}
+
+.container {
+    margin: 50px
+}
